@@ -1,0 +1,4 @@
+[05-Jan-2025 16:46:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/sharahaq/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/sharahaq/public_html/config/database.php on line 18

@@ -1,0 +1,21 @@
+/* Boxed theme */
+
+body.full {
+     max-width:1300px;
+     margin:0 auto;
+     box-shadow: 10px 10px 100px -19px rgba(0,0,0,0.75);
+     background:#fff;
+}
+body.full #page,
+body.full section
+ {
+	padding:0 20px;
+}
+.full .navbar{
+	margin:0 auto;
+    width:1320px!important;
+}
+
+
+
+

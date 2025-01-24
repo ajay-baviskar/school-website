@@ -1,0 +1,71 @@
+[06-Jun-2024 05:52:50 UTC] PHP Warning:  Undefined array key "razorpay_payment_id" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 16
+[06-Jun-2024 05:52:50 UTC] PHP Warning:  Undefined array key "amount" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 17
+[06-Jun-2024 05:52:50 UTC] PHP Warning:  Undefined array key "response" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 18
+[06-Jun-2024 05:52:50 UTC] PHP Warning:  Undefined array key "form_data" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 19
+[06-Jun-2024 05:52:50 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php:48
+Stack trace:
+#0 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php(27): Razorpay\Api\Entity->validateIdPresence(NULL)
+#1 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Payment.php(14): Razorpay\Api\Entity->fetch(NULL)
+#2 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php(37): Razorpay\Api\Payment->fetch(NULL)
+#3 {main}
+  thrown in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php on line 48
+[08-Jun-2024 08:08:05 UTC] PHP Warning:  Undefined array key "razorpay_payment_id" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 16
+[08-Jun-2024 08:08:05 UTC] PHP Warning:  Undefined array key "amount" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 17
+[08-Jun-2024 08:08:05 UTC] PHP Warning:  Undefined array key "response" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 18
+[08-Jun-2024 08:08:05 UTC] PHP Warning:  Undefined array key "form_data" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 19
+[08-Jun-2024 08:08:05 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php:48
+Stack trace:
+#0 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php(27): Razorpay\Api\Entity->validateIdPresence(NULL)
+#1 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Payment.php(14): Razorpay\Api\Entity->fetch(NULL)
+#2 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php(37): Razorpay\Api\Payment->fetch(NULL)
+#3 {main}
+  thrown in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php on line 48
+[17-Jun-2024 21:04:58 UTC] PHP Warning:  Undefined array key "razorpay_payment_id" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 16
+[17-Jun-2024 21:04:58 UTC] PHP Warning:  Undefined array key "amount" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 17
+[17-Jun-2024 21:04:58 UTC] PHP Warning:  Undefined array key "response" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 18
+[17-Jun-2024 21:04:58 UTC] PHP Warning:  Undefined array key "form_data" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 19
+[17-Jun-2024 21:04:58 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php:48
+Stack trace:
+#0 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php(27): Razorpay\Api\Entity->validateIdPresence(NULL)
+#1 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Payment.php(14): Razorpay\Api\Entity->fetch(NULL)
+#2 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php(37): Razorpay\Api\Payment->fetch(NULL)
+#3 {main}
+  thrown in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php on line 48
+[19-Jun-2024 20:57:55 UTC] PHP Warning:  Undefined array key "razorpay_payment_id" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 16
+[19-Jun-2024 20:57:55 UTC] PHP Warning:  Undefined array key "amount" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 17
+[19-Jun-2024 20:57:55 UTC] PHP Warning:  Undefined array key "response" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 18
+[19-Jun-2024 20:57:55 UTC] PHP Warning:  Undefined array key "form_data" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 19
+[19-Jun-2024 20:57:55 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php:48
+Stack trace:
+#0 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php(27): Razorpay\Api\Entity->validateIdPresence(NULL)
+#1 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Payment.php(14): Razorpay\Api\Entity->fetch(NULL)
+#2 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php(37): Razorpay\Api\Payment->fetch(NULL)
+#3 {main}
+  thrown in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php on line 48
+[21-Jun-2024 23:31:39 UTC] PHP Warning:  Undefined array key "razorpay_payment_id" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 16
+[21-Jun-2024 23:31:39 UTC] PHP Warning:  Undefined array key "amount" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 17
+[21-Jun-2024 23:31:39 UTC] PHP Warning:  Undefined array key "response" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 18
+[21-Jun-2024 23:31:39 UTC] PHP Warning:  Undefined array key "form_data" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 19
+[21-Jun-2024 23:31:39 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php:48
+Stack trace:
+#0 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php(27): Razorpay\Api\Entity->validateIdPresence(NULL)
+#1 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Payment.php(14): Razorpay\Api\Entity->fetch(NULL)
+#2 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php(37): Razorpay\Api\Payment->fetch(NULL)
+#3 {main}
+  thrown in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php on line 48
+[23-Jun-2024 23:15:03 UTC] PHP Warning:  Undefined array key "razorpay_payment_id" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 16
+[23-Jun-2024 23:15:03 UTC] PHP Warning:  Undefined array key "amount" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 17
+[23-Jun-2024 23:15:03 UTC] PHP Warning:  Undefined array key "response" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 18
+[23-Jun-2024 23:15:03 UTC] PHP Warning:  Undefined array key "form_data" in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php on line 19
+[23-Jun-2024 23:15:03 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The payment id provided is null in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php:48
+Stack trace:
+#0 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php(27): Razorpay\Api\Entity->validateIdPresence(NULL)
+#1 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Payment.php(14): Razorpay\Api\Entity->fetch(NULL)
+#2 /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/ajax/verify_payment.php(37): Razorpay\Api\Payment->fetch(NULL)
+#3 {main}
+  thrown in /home2/accunaze/public_html/staticwebsite/sharadaenglishhighschool.in/vendor/razorpay/razorpay/src/Entity.php on line 48
+[06-Nov-2024 15:09:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'accunaze_sapaliga'@'localhost' (using password: YES) in /home4/sharahaq/public_html/ajax/verify_payment.php:2
+Stack trace:
+#0 /home4/sharahaq/public_html/ajax/verify_payment.php(2): mysqli_connect('localhost', 'accunaze_sapali...', Object(SensitiveParameterValue), 'accunaze_sharad...')
+#1 {main}
+  thrown in /home4/sharahaq/public_html/ajax/verify_payment.php on line 2
