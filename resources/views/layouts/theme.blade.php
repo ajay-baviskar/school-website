@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-   
+
 <!-- Mirrored from ingridkuhn.com/themes/alphabet-bs5.3/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jun 2023 04:38:16 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
@@ -75,10 +75,10 @@
                      <div class="predefined_styles">
                         <h4>Choose a Color Skin</h4>
                         <!-- MODULE #3 -->
-                        <a href="{{url('playground')}}" class="styleswitch"><img src="{{url('public')}}/theme/switcher/images/icons/playground.png" class="rounded-circle" alt="Playground"></a>     
+                        <a href="{{url('playground')}}" class="styleswitch"><img src="{{url('public')}}/theme/switcher/images/icons/playground.png" class="rounded-circle" alt="Playground"></a>
                         <a href="{{url('games')}}"  class="styleswitch"><img src="{{url('public')}}/theme/switcher/images/icons/games.png" class="rounded-circle" alt="Games"></a>
                         <a href="{{url('toddler')}}" class="styleswitch"><img src="{{url('public')}}/theme/switcher/images/icons/toddler.png" class="rounded-circle" alt="Toddler"></a>
-                        <a href="{{url('school')}}" class="styleswitch"><img src="{{url('public')}}/theme/switcher/images/icons/school.png" class="rounded-circle" alt="School"></a> 							
+                        <a href="{{url('school')}}" class="styleswitch"><img src="{{url('public')}}/theme/switcher/images/icons/school.png" class="rounded-circle" alt="School"></a>
                         <a href="{{url('childhood')}}" class="styleswitch"><img src="{{url('public')}}/theme/switcher/images/icons/childhood.png" class="rounded-circle" alt="Childhood"></a>
                         <a href="{{url('nanny')}}" class="styleswitch"><img src="{{url('public')}}/theme/switcher/images/icons/nanny.png" class="rounded-circle" alt="Nanny">
 						<a href="{{url('maincolors')}}" class="styleswitch"><img src="{{url('public')}}/theme/switcher/images/icons/maincolors.png" class="rounded-circle" alt="Main Colors"></a>
@@ -89,23 +89,23 @@
 								<option value="full">Full Width</option>
 
 				<option value="boxed">Boxed</option>
-				
-				</select>  
-            </form>  
+
+				</select>
+            </form>
                         <h4 class="mt-4">Header</h4>
                         <a href="{{url('/')}}" class="btn">Layerslider</a>
                         <a href="{{url('index-video')}}" class="btn">Video</a>
                      </div>
                      <!-- end predefined_styles -->
                   </div>
-                  <!-- end col -->  
+                  <!-- end col -->
                </div>
                <!-- end row -->
             </div>
             <!-- end form_holder -->
          </div>
          <!-- end demo_changer -->
-         <!-- End Switcher -->	  
+         <!-- End Switcher -->
       <!-- Navbar -->
       <!-- <div class="header_top">
          <div class="container">
@@ -138,14 +138,14 @@
                   <li class="nav-item home">
                      <a class="nav-link" href="{{url('/')}}">Home</a>
                   </li>
-                  
+
                   <li class="nav-item">
                      <a class="nav-link" href="{{url('about-us')}}">About</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="{{url('activities')}}">Activities</a>
                   </li>
-                  
+
 				    <!--desktop logo -->
                   <!-- <li class="nav-item d-none d-xl-block navbar-brand-centered ">
                      <a href="{{url('public')}}/theme/#page-top">
@@ -159,9 +159,9 @@
                   <li class="nav-item">
                      <a class="nav-link" href="{{url('gallery')}}">Gallery</a>
                   </li>
-                 
+
                   <!--/nav-item -->
-                  
+
                   <li class="nav-item">
                      <a class="nav-link" href="{{url('contact')}}">Contact</a>
                   </li>
@@ -178,11 +178,11 @@
          </div>
 		  <!--/container -->
       </nav>
-      
+
       @yield('content')
-      <!-- Footer -->   
+      <!-- Footer -->
 <div id="footer-divider" class="container-fluid cloud-divider white">
-   <!-- Clouds SVG Divider -->   
+   <!-- Clouds SVG Divider -->
    <svg id="deco-clouds" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
       <path d="M-5 100 Q 0 20 5 100 Z
          M0 100 Q 5 0 10 100
@@ -212,7 +212,7 @@
    <div class="container">
       <div class="row">
          <!-- Newsletter -->
-         {{-- 
+         {{--
          <div class="col-lg-3 text-center res-margin my-auto">
             <h6 class="text-light">Sign our Newsletter</h6>
             <!-- Begin Mailchimp Signup Form -->
@@ -248,7 +248,7 @@
          <!-- Bottom Credits -->
          <div class="col-lg-6 res-margin my-auto">
             <a href="{{url('public')}}/theme/#page-top"><img src="{{url('public')}}/theme/img/sharada_smalllogo-removebg-preview.png"  alt="" class="d-block mx-auto"></a>
-            <!-- social-icons -->   
+            <!-- social-icons -->
             <div class="social-media text-center mt-3">
                <a href="{{url('public')}}/theme/#" title=""><i class="fa-brands fa-twitter"></i></a>
                <a href="{{url('public')}}/theme/#" title=""><i class="fa-brands fa-facebook-f"></i></a>
@@ -291,7 +291,7 @@
    </div>
    <!-- / container -->
    <hr>
-   
+
    <!-- /container -->
    <!-- Go To Top Link -->
    <div class="page-scroll d-none d-lg-block">
@@ -315,8 +315,8 @@
     <script type="text/javascript">
        alert('Data submitted successfully!');
     </script>
-@endif   
-     <!-- Isotope -->     
+@endif
+     <!-- Isotope -->
 <script src="{{url('public')}}/theme/js/isotope.js"></script>
 <!-- Contact -->
 <script src="{{url('public')}}/theme/js/contact.js"></script>

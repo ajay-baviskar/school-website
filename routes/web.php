@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\AdmissionController;
+use App\Http\Controllers\HolidayController;
 use Illuminate\Support\Facades\Route;
-  
+
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
@@ -104,6 +106,33 @@ Route::get('/index-video', function () {
 });
 
 
+#By Ajay
+
+
+Route::get('/admission', function () {
+    return view('admission_forms.admission');
+})->name('admission');
+
+
+Route::post('/upload-documents', [AdmissionFormController::class, 'upload'])->name('upload.documents');
+
+
+Route::get('/notice-board', [NoticeController::class, 'index1'])->name('notice.board');
+
+
+Route::get('/school-time', function () {
+    return view('web.school_time');
+});
+
+
+Route::get('/bank-details', function () {
+    return view('web.bank_details');
+});
+
+Route::post('/admission/upload', [AdmissionFormController::class, 'upload'])->name('admission.upload');
+
+
+
 Route::post('/pdf/extract', [PDFController::class, 'extractText']);
 Route::post('conatct-data', [HomeController::class, 'data']);
 Route::post('form', [HomeController::class, 'form']);
@@ -111,11 +140,16 @@ Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 // Route::post('/socity-login', [LoginController::class, 'socityLogin'])->name('socity-login');
-  
+
 Route::group(['middleware' => ['auth','role:SuperAdmin']], function() {
     Route::resource('notice', NoticeController::class);
     Route::resource('gallary', GallaryController::class);
     Route::resource('admission-form', AdmissionFormController::class);
+    Route::resource('holidays', HolidayController::class);
+
+    Route::get('/admissions', [AdmissionController::class, 'index'])->name('admissions.index');
+Route::delete('/admissions/{id}', [AdmissionController::class, 'destroy'])->name('admissions.destroy');
+
     Route::resource('subscription', SubscriptionController::class);
     Route::get('fees-payment', [AdmissionFormController::class, 'payment']);
     Route::get('contacts', [AdmissionFormController::class, 'contact']);

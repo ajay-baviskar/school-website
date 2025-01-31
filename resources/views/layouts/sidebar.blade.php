@@ -28,7 +28,25 @@
                 <span key="t-dashboards">Admission-form</span>
             </a>
         </li>
+
+
         <li>
+            <a href="{{url('admissions')}}">
+                <i class="bx bx-file"></i>
+                <span key="t-dashboards">Submited Admission form</span>
+            </a>
+        </li>
+
+        <li>
+
+            <li>
+                <a href="{{url('holidays')}}">
+                    <i class="bx bx-file"></i>
+                    <span key="t-dashboards">Holiday</span>
+                </a>
+            </li>
+            <li>
+
             <a href="{{url('setting')}}">
                 <i class="bx bx-file"></i>
                 <span key="t-dashboards">Setting</span>

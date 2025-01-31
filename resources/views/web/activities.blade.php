@@ -19,20 +19,20 @@
          </div>
       </div>
       <!-- Parallax Image / hidden on mobile -->
-      
+
    <!-- Slide 2 -->
 
       <!-- Parallax Image / hidden on mobile-->
-    
+
    <!-- Slide 3 -->
-   
+
       <!-- Parallax Image / hidden on mobile -->
       <img src="{{url('public')}}/theme/img/flower.png" class="ls-l img-fluid parallax2 ls-hide-tablet ls-hide-phone" alt="" style=" top:380px;left:42%;" data-ls="delayin:1500;easingin:easeOutExpo;parallaxlevel:6;">
    </div>
    <!-- Slide 4 -->
- 
+
       <!-- Parallax Image / hidden on mobile-->
-     
+
 </div>
 <!-- /Layerslider ends--><!-- Clouds SVG Divider -->
 <div id="cloud-home" class="container-fluid cloud-divider">
@@ -78,9 +78,9 @@
 <!-- Section Team -->
 <section id="team" class="color-section">
    <!-- svg triangle shape -->
-   
-  
-  
+
+
+
 <!-- Section ends -->
 <!-- Section activities -->
 <section id="activities">
@@ -107,7 +107,7 @@
             <button class="nav-link" id="pills-4-tab" data-bs-toggle="pill" data-bs-target="#pills-4" type="button" role="tab" aria-selected="false">Picnics and excursion</button>
          </li>
          <!--/nav-item -->
-        
+
          <!--/nav-item -->
       </ul>
       <!--/nav-tabs -->
@@ -117,7 +117,7 @@
             <div class="row g-lg-5 align-items-center">
                <div class="col-lg-5">
                   <!-- Activity image-->
-                  <img src="{{url('public')}}/theme/img/resize-16873295641754931279IMG0100scaled1024x546.jpg" alt="" class="img-fluid rounded-circle">						
+                  <img src="{{url('public')}}/theme/img/resize-16873295641754931279IMG0100scaled1024x546.jpg" alt="" class="img-fluid rounded-circle">
                </div>
                 <div class="col-lg-7">
                         <!-- Activity text-->
@@ -173,7 +173,7 @@
                            </div>
                            <!--/accordion item -->
                         </div>
-                        <!--/accordion -->									
+                        <!--/accordion -->
                      </div>
                <!-- /.col-md-7 -->
             </div>
@@ -186,7 +186,7 @@
             <div class="row g-lg-5 align-items-center">
                <div class="col-lg-5">
                   <!-- Activity image-->
-                  <img src="{{url('public')}}/theme/img/resize-1687329007658055623Dance1.jpg" alt="" class="img-fluid rounded-circle">						
+                  <img src="{{url('public')}}/theme/img/resize-1687329007658055623Dance1.jpg" alt="" class="img-fluid rounded-circle">
                </div>
                <div class="col-lg-7">
                   <!-- Activity text-->
@@ -243,12 +243,12 @@
                      </div>
                      <!--/accordion item -->
                   </div>
-                  <!--/accordion -->						
+                  <!--/accordion -->
                </div>
                <!-- /.col-md-7 -->
             </div>
             <!-- /.row -->
-            <!--/Tab Content 2 ends -->													
+            <!--/Tab Content 2 ends -->
          </div>
          <!--/tab-pane -->
          <div class="tab-pane" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
@@ -256,7 +256,7 @@
             <div class="row g-lg-5 align-items-center">
                <div class="col-lg-5">
                   <!-- Activity image-->
-                  <img src="{{url('public')}}/theme/img/resize-16873290831603904372520261475233084ArtCraft.jpg" alt="" class="img-fluid rounded-circle">						
+                  <img src="{{url('public')}}/theme/img/resize-16873290831603904372520261475233084ArtCraft.jpg" alt="" class="img-fluid rounded-circle">
                </div>
                <div class="col-lg-7">
                   <!-- Activity text-->
@@ -314,7 +314,7 @@
                      </div>
                      <!--/accordion item -->
                   </div>
-                  <!--/accordion -->						
+                  <!--/accordion -->
                </div>
                <!-- /.col-md-7 -->
             </div>
@@ -327,7 +327,7 @@
             <div class="row g-lg-5 align-items-center">
                <div class="col-lg-5">
                   <!-- Activity image-->
-                  <img src="{{url('public')}}/theme/img/resize-16873288982144884871picnic.jpg" alt="" class="img-fluid rounded-circle">						
+                  <img src="{{url('public')}}/theme/img/resize-16873288982144884871picnic.jpg" alt="" class="img-fluid rounded-circle">
                </div>
                <div class="col-lg-7">
                   <!-- Activity text-->
@@ -384,7 +384,7 @@
                      </div>
                      <!--/accordion item -->
                   </div>
-                  <!--/accordion -->						
+                  <!--/accordion -->
                </div>
                <!-- /.col-md-7 -->
             </div>
@@ -397,7 +397,7 @@
             <div class="row g-lg-5 align-items-center">
                <div class="col-lg-5">
                   <!-- Activity image-->
-                  <img src="{{url('public')}}/theme/img/activity5.jpg" alt="" class="img-fluid rounded-circle">						
+                  <img src="{{url('public')}}/theme/img/activity5.jpg" alt="" class="img-fluid rounded-circle">
                </div>
                <div class="col-lg-7">
                   <!-- Activity text-->
@@ -450,7 +450,7 @@
                      </div>
                      <!--/accordion item -->
                   </div>
-                  <!--/accordion -->						
+                  <!--/accordion -->
                </div>
                <!-- /.col-md-7 -->
             </div>
@@ -481,6 +481,6 @@
 <!-- /Section ends -->
 
 
-<!-- Footer -->	
+<!-- Footer -->
 @endsection
 

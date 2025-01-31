@@ -24,11 +24,13 @@
         margin-top:16px;
     }
 </style>
-<?php 
+<?php
     $datas = [
         'Notice'=>'notice',
         'Gallary'=>'gallary',
         'Admission Form'=>'admission-form',
+        'Submited Forms' =>"admissions",
+        'Holiday' => "holidays",
         'Setting'=>'setting',
     ];
 ?>
@@ -55,5 +57,5 @@
 <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>  -->
 @endsection
 @section('js')
- 
+
 @endsection

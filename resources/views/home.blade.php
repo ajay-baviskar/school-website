@@ -28,9 +28,9 @@
     }
 </style>
 <div class="row">
-    
+
     @role('SuperAdmin')
-    
+
     @endrole
     <div class="d-sm-flex flex-wrap">
         <!-- <h4 class="card-title mb-4">Email Sent</h4> -->
@@ -45,7 +45,7 @@
         <!-- <div class="flex-shrink-0 align-self-center">
             <div class="mini-stat-icon avatar-sm rounded-circle bg-primary">
                 <span class="avatar-title">
-                    
+
                 </span>
             </div>
         </div>
@@ -87,7 +87,7 @@
                 </div>
             </div>
         </div> -->
-        
+
         <!-- <div class="col-md-4">
             <div class="card-body">
                 <canvas id="typeChart" class="e-charts"></canvas>
@@ -100,7 +100,7 @@
                     <div class="table-responsive mt-4">
                         <table class="table align-middle table-nowrap ">
                             <tbody class="type_wise">
-                                
+
                             </tbody>
                         </table>
                     </div>
@@ -122,7 +122,7 @@
                     <div class="table-responsive mt-4">
                         <table class="table align-middle table-nowrap ">
                             <tbody class="score_wise">
-                                
+
                             </tbody>
                         </table>
                         <div class="text-center mt-4 view_more" style="display:none;"><a href="{{url('top-score')}}" class="btn btn-primary waves-effect waves-light btn-sm">View More <i class="mdi mdi-arrow-right ms-1"></i></a></div>
@@ -188,7 +188,7 @@
         fetch('{{ url("/dashboard-data") }}')
             .then(response => response.json())
             .then(data => {
-               
+
                 function initPieChart(domId, chartTitle, chartData) {
                     // let dom = document.getElementById(domId);
                     // let myChart = echarts.init(dom);
@@ -392,7 +392,7 @@
                     `;
                 });
                 var score_wise = ``;
-                
+
                 $.each(data.score_wise, function(name, value) {
 
                     if (name > 4) {
@@ -417,7 +417,7 @@
                 // initPieChart('departmentChart', 'Department wise', data.department_wise);
                 // initPieChart('priorityChart', 'Priority wise', data.priority_wise);
                 initBarChart('statusChart', 'Status wise', data.status_wise);
-                
+
             });
     };
     function getChartColorsArray(t) {
@@ -438,5 +438,5 @@
 
 
 
-</script>  
+</script>
 @endsection

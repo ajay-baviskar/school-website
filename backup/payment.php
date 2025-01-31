@@ -173,24 +173,52 @@
         </div>
         <!-- /.container -->
     </div>
-    
+
     <center style="padding-bottom: 24px;">
-        <h3>SCHOOL FEES</h3>
-        <h4>TOGETHER WE ACHIEVE THE EXTRAORDINARY</h4>
-        <h4>"An investment in education always pays the highest returns."</h4>
-        <h5>For JRKG, SRKG, Ist TO Xth     2024-25</h5>
-            <p>Tuition Fee:  Rs.1200 / per month.</p>
-            <p>Term Fee:     Rs.3000/- per annum.</p>
-        <h5>For Grade- XI & XII     2024-25</h5>
-            <p>Fee Full Year - Rs. 12000 /pa.</p>
-            <h4>The mode of payment will be ONLY via Demand Draft or <a href="/payment.php">online .</a></h4>
-        <h5>SCHOOL TIMINGS:    Monday to Saturday</h5>
-            <p>The school works in ONE shift:</p>
-            <p>Primary & Secondary Section 8.00 am. to 2.00 pm.</p>
-            <p>Junior College Section : Std.XI & XII Commerce & Science     02.p.m. to 5.30p.m.</p>
-            <p> <ul>Visiting Hours  : </ul>  CLERK OFFICE:  9am to  11am</p>
+        <table class="table table-bordered table-striped text-center">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Standard (STD)</th>
+                    <th>Monthly Fee</th>
+                    <th>Term Fee (Pay in August)</th>
+                    <th>Yearly Fee (YLY)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jr KG, Sr KG</td>
+                    <td>Rs. 1200/-</td>
+                    <td>Rs. 3000/-</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>I, II, III, IV</td>
+                    <td>Rs. 1000/-</td>
+                    <td>Rs. 3000/-</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>V, VI, VII, VIII, IX, X</td>
+                    <td>Rs. 1200/-</td>
+                    <td>Rs. 3000/-</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>XI & XII - Science</td>
+                    <td></td>
+                    <td></td>
+                    <td>Rs. 17000/-</td>
+                </tr>
+                <tr>
+                    <td>XI & XII - Commerce</td>
+                    <td></td>
+                    <td></td>
+                    <td>Rs. 15000/-</td>
+                </tr>
+            </tbody>
+        </table>
     </center>
-    
+
     <!-- /jumbotron -->
     <!-- Clouds SVG Divider -->
     <svg id="deco-clouds2" class="head d-none d-md-block" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -239,8 +267,8 @@
                         <input type="number" class="form-control" id="rollno" placeholder="text" name="roll_no" required>
                         <label for="rollno">Roll no</label>
                     </div>
-                    
-                    
+
+
                     <div class="form-floating mb-3">
                         <input type="number" class="form-control" id="floatingInput" placeholder="text" name="amount" min=10 required>
                         <label for="floatingInput">Amount</label>

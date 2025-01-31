@@ -13,15 +13,21 @@
                 </div>
             </div>
             <div class="col-lg-12">
+                {{-- <div class="form-group">
+                    {{ Form::label('text', 'Description', ['class' => 'form-control-label']) }}
+                    {{ Form::text('desc', null, ['class' => 'form-control summer','required'=>true]) }}
+                </div> --}}
+
+
                 <div class="form-group">
                     {{ Form::label('text', 'Description', ['class' => 'form-control-label']) }}
-                    {{ Form::textarea('desc', null, ['class' => 'form-control summer','required'=>true]) }}
+                    {{ Form::text('desc', null, ['class' => 'form-control','required'=>true]) }}
                 </div>
             </div>
             <div class="col-lg-12">
                 <label for="resume">File</label>
                 @if(isset($val) && $val->url_name)
-                    <a href="{{ asset($val->url_name) }}" target="_blank"> 
+                    <a href="{{ asset($val->url_name) }}" target="_blank">
                         <img src="{{ asset($val->url_name) }}" style="width:25px;">
                     </a>
                 @endif

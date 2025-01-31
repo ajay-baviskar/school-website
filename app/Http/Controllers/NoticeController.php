@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Holiday;
 use App\Models\Notice;
 use Illuminate\Http\Request;
 use File;
@@ -31,18 +32,18 @@ class NoticeController extends Controller
         // $this->validate($request, [
         //     'name' => 'required|unique:departments,name',
         // ]);
-        
+
     }
 
     public function profile_photo($user_file,$paths){
         $path = public_path().$paths;
-        if (!file_exists($path)) 
+        if (!file_exists($path))
         {
             File::makeDirectory($paths, $mode = 0777, true, true);
         }
         $user_file_path = $path.'-'.$user_file->getClientOriginalName();
         $filename = $user_file->getClientOriginalName();
-        $file_path = $path.$filename;    
+        $file_path = $path.$filename;
         $file=$user_file;
         $file->move($path,$filename);
         $path_table=$paths.'/'.$filename;
@@ -134,4 +135,16 @@ class NoticeController extends Controller
             return back()->withErrors(__($e->getMessage()));
         }
     }
+
+
+    public function index1()
+{
+    $notices = Notice::latest()->paginate(10);
+    $holidays = Holiday::orderBy('holiday_date', 'asc')->get();
+
+    return view('notice.notice_page', compact('notices', 'holidays'));
+}
+
+
+
 }

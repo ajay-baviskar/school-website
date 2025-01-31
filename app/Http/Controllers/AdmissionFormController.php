@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\AdmissionDocument;
 use App\Models\AdmissionForm;
 use App\Models\FeesPayment;
 use App\Models\Contact;
@@ -22,7 +23,7 @@ class AdmissionFormController extends Controller
         return view('admission_forms.index',compact('data','title'));
     }
 
-    
+
 
     public function payment(){
         $data = FeesPayment::orderBy('id','DESC')->get();
@@ -75,13 +76,13 @@ class AdmissionFormController extends Controller
 
     public function profile_photo($user_file,$paths){
         $path = public_path().$paths;
-        if (!file_exists($path)) 
+        if (!file_exists($path))
         {
             File::makeDirectory($paths, $mode = 0777, true, true);
         }
         $user_file_path = $path.'-'.$user_file->getClientOriginalName();
         $filename = $user_file->getClientOriginalName();
-        $file_path = $path.$filename;    
+        $file_path = $path.$filename;
         $file=$user_file;
         $file->move($path,$filename);
         $path_table=$paths.'/'.$filename;
@@ -156,5 +157,29 @@ class AdmissionFormController extends Controller
         }catch (\Exception $e) {
             return back()->withErrors(__($e->getMessage()));
         }
+    }
+
+    public function upload(Request $request)
+    {
+        $request->validate([
+            'filled_form' => 'required|mimes:pdf|max:2048',
+            'aadhaar' => 'required|mimes:pdf,jpg,jpeg,png|max:2048',
+            'leaving_certificate' => 'required|mimes:pdf,jpg,jpeg,png|max:2048',
+            'birth_certificate' => 'required|mimes:pdf,jpg,jpeg,png|max:2048',
+        ]);
+
+        $filledFormPath = $request->file('filled_form')->store('uploads/admissions');
+        $aadhaarPath = $request->file('aadhaar')->store('uploads/admissions');
+        $leavingCertificatePath = $request->file('leaving_certificate')->store('uploads/admissions');
+        $birthCertificatePath = $request->file('birth_certificate')->store('uploads/admissions');
+
+        AdmissionDocument::create([
+            'filled_form' => $filledFormPath,
+            'aadhaar' => $aadhaarPath,
+            'leaving_certificate' => $leavingCertificatePath,
+            'birth_certificate' => $birthCertificatePath,
+        ]);
+
+        return back()->with('success', 'Files uploaded successfully!');
     }
 }

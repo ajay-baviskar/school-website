@@ -238,6 +238,58 @@
          </div>
          <!-- /col-lg- -->
       </div>
+
+        <div class="row">
+           <!-- Admission Card -->
+           <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                 {{-- <img src="{{url('public')}}/theme/img/admission.jpg" class="card-img-top" alt="Admission Image"> --}}
+                 <div class="card-body">
+                    <h5 class="card-title">Admission</h5>
+                    <p class="card-text">Get detailed information about the admission process, eligibility, and necessary documents to apply to our school.</p>
+                    <a href="{{url('admission')}}" class="btn btn-primary">Apply Now</a>
+                 </div>
+              </div>
+           </div>
+
+           <!-- Fees Payment Card -->
+           <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                 {{-- <img src="{{url('public')}}/theme/img/fees-payment.jpg" class="card-img-top" alt="Fees Payment Image"> --}}
+                 <div class="card-body">
+                    <h5 class="card-title">Fees Payment</h5>
+                    <p class="card-text">Easily pay your school fees online through our secure payment gateway. Stay updated with your payment status.</p>
+                    <a href="{{url('payment')}}" class="btn btn-primary">Pay Now</a>
+                 </div>
+              </div>
+           </div>
+
+           <!-- School Timing Card -->
+           <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                 {{-- <img src="{{url('public')}}/theme/img/school-timing.jpg" class="card-img-top" alt="School Timing Image"> --}}
+                 <div class="card-body">
+                    <h5 class="card-title">School Timing</h5>
+                    <p class="card-text">Find out the school timings for each class and day. Make sure your child reaches on time for their lessons.</p>
+                    <a href="{{url('school-time')}}" class="btn btn-primary">View Timings</a>
+
+                 </div>
+              </div>
+           </div>
+
+           <!-- Notice Card -->
+           <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                 {{-- <img src="{{url('public')}}/theme/img/notice.jpg" class="card-img-top" alt="Notice Image"> --}}
+                 <div class="card-body">
+                    <h5 class="card-title">Notice</h5>
+                    <p class="card-text">Stay updated with the latest notices and announcements from the school. Don't miss any important information!</p>
+                    <a href="{{url('notice-board')}}" class="btn btn-primary">View Notices</a>
+                 </div>
+              </div>
+           </div>
+        </div>
+
       <!-- /row -->
    <!--/container-->
 </section>

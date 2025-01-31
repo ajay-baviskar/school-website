@@ -57,13 +57,13 @@ class ApplicationController extends Controller
     }
     public function profile_photo($user_file,$paths){
         $path = public_path().$paths;
-        if (!file_exists($path)) 
+        if (!file_exists($path))
         {
             File::makeDirectory($paths, $mode = 0777, true, true);
         }
         $user_file_path = $path.'-'.$user_file->getClientOriginalName();
         $filename = $user_file->getClientOriginalName();
-        $file_path = $path.$filename;    
+        $file_path = $path.$filename;
         $file=$user_file;
         $file->move($path,$filename);
         $path_table=$paths.'/'.$filename;
